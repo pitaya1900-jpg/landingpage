@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
 
   const handleCopyContact = () => {
-    navigator.clipboard.writeText("010-2241-6225");
+    navigator.clipboard.writeText("031-8041-0129");
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);
   };
@@ -260,7 +260,7 @@ export default function Home() {
               </p>
               
               <div className="contact-details">
-                <a href="tel:01022416225" className="contact-card-tel">
+                <a href="tel:03180410129" className="contact-card-tel">
                   <div className="contact-item">
                     <div className="contact-item-icon">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -269,7 +269,7 @@ export default function Home() {
                     </div>
                     <div className="contact-item-content">
                       <span className="contact-item-label">전화번호 (클릭 시 통화 연결)</span>
-                      <span className="contact-item-value">010-2241-6225</span>
+                      <span className="contact-item-value">031-8041-0129</span>
                     </div>
                   </div>
                 </a>
