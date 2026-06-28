@@ -77,8 +77,7 @@ export default function Home() {
               </h1>
               <p className="hero-desc">
                 안녕하세요! 대학생들의 성공적인 첫걸음을 응원하고 돕는 <strong>하영아</strong>입니다.<br />
-                진로 설정의 모호함을 걷어내고, 명확한 맞춤형 전략과 진정성 있는 1:1 멘토링을 통해<br />
-                스스로 원하는 미래와 커리어를 디자인할 수 있도록 이끌어 드립니다.
+                진로 설정의 모호함을 걷어내고, 명확한 맞춤형 전략과 진정성 있는 1:1 멘토링을 통해 스스로 원하는 미래와 커리어를 디자인할 수 있도록 이끌어 드립니다.
               </p>
               <div className="hero-cta">
                 <a href="#contact" className="btn btn-primary" onClick={(e) => { e.preventDefault(); scrollToSection("contact"); }}>
